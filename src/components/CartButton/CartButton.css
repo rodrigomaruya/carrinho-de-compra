@@ -1,0 +1,29 @@
+.cart-button {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 5px;
+  position: relative;
+  margin-left: 20px;
+}
+
+.cart-status {
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
